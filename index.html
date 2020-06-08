@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>E-Commerce</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@400;700;800&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+		*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+		body{
+			width: 100%;
+			height: 100vh;
+			background-color: #3e246d;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+		
+		
+		
+		#ficha{
+			width: 100%;
+			height: 100vh;
+			
+			background: rgb(98,127,231);
+			background: linear-gradient(90deg, rgba(98,127,231,1) 0%, rgba(92,172,231,1) 35%, rgba(87,209,232,1) 100%);
+			border-radius: 1.8em 1.8em 0 0;
+			overflow: hidden;
+            box-shadow: 15px 15px 15px 1px rgba(0, 0, 0, 0.5);
+		}
+		
+		#fichaCabecera{
+			background-color: #fff;
+			display: flex;
+			justify-content:space-between;
+			align-items: center;
+			height: 4em;
+			padding: 1em 3em;
+		}
+		
+		#fichaContenido{
+			display: flex;
+			
+			
+		}
+		
+		#fichaContenido .grafico{
+			width: 60%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 5em;
+			
+		}
+		
+		#fichaContenido .grafico img{
+			width: 80%;
+			display: block;
+		}
+		
+		#fichaContenido .texto{
+			width: 60%;
+			color: white;
+			padding-top: 5em;
+		}
+		
+		#fichaContenido .texto h2{
+			color: #3e246d;
+		}
+		#fichaContenido .texto h1{
+			padding-top: 0.3em;
+			font-family: 'Poppins', sans-serif;
+			font-size: 55px;
+			padding-bottom: 0.3em;
+			
+		}
+		#fichaContenido .texto p{
+			padding-top: 0.2em;
+    		width: 80%;
+    		padding-bottom: 1.9em;
+		}
+		
+		
+		#fichaContenido .formulario .texto_formulario{
+			border-radius: 1.8em;
+			border: 0;
+			box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+			width: 50%;
+			padding: 0.8em;
+		}
+		
+		#fichaContenido .formulario .send{
+			
+			padding: 0.8em 2em;
+			border-radius: 1.8em;
+			border: 2px solid #5a2bf7;
+			text-decoration: none;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 0.6em;
+			background-color: #5a2bf7;
+			color: #fff;
+			font-weight: 700;
+		
+		}
+		#fichaContenido .formulario .send:hover{
+			color: #5a2bf7;
+			background-color: #fff;
+		}
+		
+		.menu ul{
+			list-style-type: none;
+			display: flex;
+			align-items: center;
+		}
+		
+		
+		.menu ul .logo img{
+			width: 40px;
+		}
+		
+		.menu ul .logoTexto{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 800;
+			color: #5a2bf7;
+			margin-left: 2em;
+			margin-right: 1em;
+			font-size: 0.8em;
+		}
+		
+		.menu ul li{
+			padding: 0 0.4em;
+		}
+		.menu ul li a{
+			text-decoration: none;
+			font-family: 'Source Sans Pro', sans-serif;
+			color: #1f3447;
+			font-size: 0.7em;
+			display: block;
+			
+		}
+		
+		.menu ul li a:hover{
+			color: #5a2bf7;
+		}
+		
+		.botones ul{
+			list-style-type: none;
+			display: flex;
+		}
+		
+		.botones ul li{
+			padding: 0 0.4em;
+		}
+		
+		.botones ul li a{
+			display: block;
+			padding: 0.4em 1.8em;
+			border-radius: 1.8em;
+			border:2px solid #5a2bf7;
+			text-decoration: none;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 0.6em;
+			font-weight: 700;
+			
+		}
+		
+		.botones ul li a.sign{
+			background-color: #5a2bf7;
+			color: #fff;
+		}
+		
+		.botones ul li a.sign:hover{
+			color: #5a2bf7;
+			background-color: #fff;
+		}
+		
+		.botones ul li a.log{
+			background-color: #fff;
+			color: #5a2bf7;
+		}
+		
+		.botones ul li a.log:hover{
+			color: #fff;
+			background-color: #5a2bf7;
+		}
+		
+		
+		
+		
+		
+	</style>
+</head>
+
+<body>
+	
+
+		
+		<div id="ficha">
+			<div id="fichaCabecera">
+				<div class="menu">
+					<ul>
+						<li class="logo"><img src="img/camion.svg"></li>
+						<li class="logoTexto">E-COMMERCE</li>
+						<li>
+							<a href="#">HOME</a>
+						</li>
+						<li>
+							<a href="#">SERVICES</a>
+						</li>
+						<li>
+							<a href="#">ABOUT</a>
+						</li>
+						<li>
+							<a href="#">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+				<div class="botones">
+					<ul>
+						<li>
+							<a href="#" class="sign">SIGN UP</a>
+						</li>
+						<li>
+							<a href="#" class="log">LOG IN</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="fichaContenido">
+				
+				<div class="grafico">
+					<img src="img/alamcen.svg">
+				</div>
+				
+				<div class="texto"> 
+					<h2>ONLINE SHOPPING</h2>
+					<h1>E-Commerce</h1>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+					<div class="formulario">
+						<input type="text" class="texto_formulario" value="Enter Your Email">
+						<input type="button" placeholder="Enter Your Email!" class="send" value="SEND">
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	
+
+	
+</body>
+</html>
